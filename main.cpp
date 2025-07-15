@@ -87,8 +87,8 @@ int main()
         // 5. Draw the object
         // Use shader program to render the object
         ourShader.use();
-        float offset = 0.5f;
-        ourShader.setFloat("xOffset", offset);
+        //float offset = 0.5f;
+        //ourShader.setFloat("xOffset", offset);
 
         switch (currentShape) {
         case TRIANGLE:
